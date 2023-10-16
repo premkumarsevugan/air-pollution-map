@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
+import Basic from './components/Basic';
+import MarkerCom from './components/MarkerCom';
+import MapProj from './components/MapProj';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import History from './components/History';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex w-full">
+        <Navbar />
+        <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/marker' element={<MarkerCom />} />
+        <Route path='/navigation' element={<Navigation />} />
+        <Route path='/history' element={<History />} />
+        <Route path='/contact' element={<Contact />} />
+
+        <Route path='/basic' element={<Basic  />}></Route>
+        <Route path='/mapProject' element = {<MapProj />}></Route>
+        </Routes>
+      
     </div>
   );
 }

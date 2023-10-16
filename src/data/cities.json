@@ -1,0 +1,84 @@
+[
+    {
+        "id":1,
+        "city":"cbe1",
+        "lat":"11.009883",
+        "lng":"77.079842",
+        "temp": "32 &deg",
+        "co2" : "95.12 ppm",
+        "overall" : "Good"
+    },
+    {
+        "id":2,
+        "city":"cbe2",
+        "lat":"11.008919",
+        "lng":"77.077662",
+        "temp": "33 &deg",
+        "co2" : "98 ppm",
+        "overall" : "Average"
+    },
+    {
+        "id":3,
+        "city":"cbe3",
+        "lat":"11.007579",
+        "lng":"77.072383",
+        "temp": "35 &deg",
+        "co2" : "92.35 ppm",
+        "overall" : "Good"
+    },
+    {
+        "id":4,
+        "city":"cbe4",
+        "lat":"11.005039",
+        "lng":"77.066689",
+        "temp": "30 &deg",
+        "co2" : "93 ppm",
+        "overall" : "Good"
+    },
+    {
+        "id":5,
+        "city":"cbe5",
+        "lat":"11.002191",
+        "lng":"77.059625",
+        "temp": "29 &deg",
+        "co2" : "99 ppm",
+        "overall" : "Average"
+        
+    },
+    {
+        "id":6,
+        "city":"cbe6",
+        "lat":"11.003008",
+        "lng":"77.050046",
+        "temp": "28 &deg",
+        "co2" : "160 ppm",
+        "overall" : "Very Bad"
+    },
+    {
+        "id":7,
+        "city":"cbe7",
+        "lat":"11.002836",
+        "lng":"77.040669",
+        "temp": "32 &deg",
+        "co2" : "150 ppm",
+        "overall" : "Bad"
+    },
+    {
+        "id":8,
+        "city":"cbe8",
+        "lat":"11.000750",
+        "lng":"77.030459",
+        "temp": "30 &deg",
+        "co2" : "120 ppm",
+        "overall" : "Bad"
+    },
+    {
+        "id":9,
+        "city":"cbe9",
+        "lat":"10.997953",
+        "lng":"77.016877",
+        "temp": "28 &deg",
+        "co2" : "110 ppm",
+        "overall" : "Average"
+    }
+]
