@@ -1,10 +1,9 @@
-import './App.css';
 import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import Basic from './components/Basic';
 import MarkerCom from './components/MarkerCom';
 import MapProj from './components/MapProj';
 import Home from './components/Home';
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation1';
 import History from './components/History';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
